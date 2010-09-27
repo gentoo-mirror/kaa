@@ -12,7 +12,7 @@ SRC_URI="http://www.kaa.org.ua/distfiles/magtek_cr_switch-${PV}.tar.bz2"
 LICENSE="GPL-2"
 
 SLOT="0"
-KEYWORDS="x86 amd64"
+KEYWORDS="~x86 ~amd64"
 IUSE=""
 
 DEPEND="dev-libs/libusb:1"
