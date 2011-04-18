@@ -13,7 +13,7 @@ SRC_URI="http://www.kaa.org.ua/distfiles/cs2d_${PV}_linux.zip
 LICENSE="freedist"
 
 SLOT="0"
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="~amd64"
 IUSE=""
 
 DEPEND=""
