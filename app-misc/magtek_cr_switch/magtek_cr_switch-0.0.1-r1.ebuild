@@ -4,23 +4,19 @@
 
 EAPI=2
 
-inherit cmake-utils subversion
+inherit cmake-utils
 
 DESCRIPTION="Mag-Tek Mini Swipe Reader mode switch tool"
 HOMEPAGE="http://www.kaa.org.ua/programmi/magtek-card-reader-switch.html"
-ESVN_REPO_URI="https://www.kaa.org.ua/svn-magtek_cr_switch/magtek_cr_switch/trunk"
+SRC_URI="http://www.kaa.org.ua/distfiles/magtek_cr_switch-${PV}.tar.bz2"
 LICENSE="GPL-2"
 
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="virtual/libusb:1"
 RDEPEND="${DEPEND}"
-
-src_unpack() {
-	subversion_src_unpack
-}
 
 src_compile() {
 	cmake-utils_src_configure
