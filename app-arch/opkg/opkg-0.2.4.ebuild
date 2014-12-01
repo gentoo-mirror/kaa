@@ -10,13 +10,16 @@ DESCRIPTION="Opkg lightweight package management system"
 HOMEPAGE="http://git.yoctoproject.org/cgit/cgit.cgi/opkg/"
 SRC_URI="http://downloads.yoctoproject.org/releases/${PN}/${P}.tar.gz"
 
-LICENSE="GPL2"
-
+LICENSE="GPL-2"
 SLOT="0"
-
 KEYWORDS="-* ~amd64 ~x86"
-
 IUSE=""
 
-#DEPEND=""
+DEPEND="app-crypt/gpgme
+	dev-libs/libassuan
+	dev-libs/libgpg-error
+	dev-libs/openssl
+	net-misc/curl
+	sys-libs/glibc
+	sys-libs/zlib"
 RDEPEND="${DEPEND}"
