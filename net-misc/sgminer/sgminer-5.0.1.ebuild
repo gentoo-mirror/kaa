@@ -13,7 +13,7 @@ SRC_URI="https://github.com/sgminer-dev/${PN}/archive/${PV}.tar.gz -> ${P}.tar.g
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~x86 ~amd64"
-IUSE="adl +curl +curses"
+IUSE="adl +curl +curses reboot"
 
 DEPEND="adl? ( x11-libs/amd-adl-sdk )
 	curl? ( net-misc/curl )
@@ -24,6 +24,10 @@ RDEPEND="${DEPEND}"
 src_prepare() {
 	if use adl ; then
 		ln -s /usr/include/ADL/* ADL_SDK/
+	fi
+
+	if use reboot ; then
+		epatch "${FILESDIR}"/${PN}_reboot.patch
 	fi
 
 	epatch "${FILESDIR}"/${P}.patch
