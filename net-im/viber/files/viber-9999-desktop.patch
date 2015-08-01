@@ -1,0 +1,10 @@
+--- a/usr/share/applications/viber.desktop
++++ b/usr/share/applications/viber.desktop
+@@ -6,5 +6,5 @@
+ Terminal=false
+ Type=Application
+ Encoding=UTF-8
+-Categories=Network;Application;
+-Path=
++Categories=Network;InstantMessaging;Telephony;
++Path=/opt/bin/viber
