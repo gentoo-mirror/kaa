@@ -11,7 +11,7 @@ HOMEPAGE="http://www.viber.com/"
 SRC_URI="http://download.cdn.viber.com/desktop/Linux/${PN}.rpm"
 
 LICENSE=""
-SLOT="0"
+SLOT="live"
 KEYWORDS="~amd64"
 
 DEPEND="app-admin/chrpath
