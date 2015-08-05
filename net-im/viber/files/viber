@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 # get current user and his home directory
 USER=$(whoami)
@@ -29,4 +29,4 @@ export LD_LIBRARY_PATH=/opt/viber
 export HOME=${VIBER_HOME}
 cd ${HOME}
 
-sandbox /opt/viber/Viber
+sandbox /opt/viber/Viber ${@}
