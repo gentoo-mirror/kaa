@@ -1,0 +1,19 @@
+app-arch/opkg 0.2.4 0.2.4-r1: Opkg lightweight package management system
+app-benchmarks/qgears 2: Very simple qt4 graphics benchmark based on David Reveman cairogears
+app-benchmarks/valley 1.0 1.0-r1: GPU stress-testing tool from the developers of Heaven Benchmark
+app-benchmarks/weighttp 0.3 9999: Small tool to benchmark webservers
+app-misc/magtek_cr_switch 0.0.1 0.0.1-r1 9999: Mag-Tek Mini Swipe Reader mode switch tool
+dev-util/codelite 4.1.5770 4.1.5770-r1: Cross platform IDE for the C/C++ programming languages
+dev-vcs/repo 1.21: The multiple repository tool from Android
+net-im/viber 9999: Viber is an instant messaging and Voice over IP
+net-misc/asterisk-chan_dongle 9999: Asterisk Huawei 3G Dongle Channel Driver.
+net-misc/asterisk-gui 2.1.0-r1: Asterisk's GUI.
+net-misc/cgminer 2.7.4 3.7.2: Bitcoin CPU/GPU/FPGA/ASIC miner in C
+net-misc/cpuminer-vert 9999: Vertcoin CPU miner in C
+net-misc/darkminer 9999: Darkcoin GPU miner in C
+net-misc/sgminer 5.0.1: Scrypt GPU miner
+net-misc/vertminer 9999: Vertcoin GPU miner in C
+net-p2p/darkcoin-qt 0.9.10.1 0.9.10.2: P2P Internet currency based on X11. It's ASIC resistant, Highly distributed and Anonymous.
+net-p2p/vertcoin-qt 0.8.7.1: P2P Internet currency based on N-Scrypt. It's ASIC resistant, Highly distributed and Rare.
+net-wireless/mt7630e 2.3.2: MT7630e PCIe Wifi
+sys-auth/pam_encfs 0.1.4.4: PAM module for auto mounting encfs drives on login.
