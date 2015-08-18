@@ -15,5 +15,5 @@ net-misc/sgminer 5.0.1: Scrypt GPU miner
 net-misc/vertminer 9999: Vertcoin GPU miner in C
 net-p2p/darkcoin-qt 0.9.10.1 0.9.10.2: P2P Internet currency based on X11. It's ASIC resistant, Highly distributed and Anonymous.
 net-p2p/vertcoin-qt 0.8.7.1: P2P Internet currency based on N-Scrypt. It's ASIC resistant, Highly distributed and Rare.
-net-wireless/mt7630e 2.3.2: MT7630e PCIe Wifi
+net-wireless/mt7630e 2.3.2 2.3.3: MT7630e PCIe Wifi
 sys-auth/pam_encfs 0.1.4.4: PAM module for auto mounting encfs drives on login.
