@@ -12,7 +12,7 @@ SRC_URI="http://downloads.yoctoproject.org/releases/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="-* ~amd64 ~arm ~x86"
+KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ppc ~ppc64 ~x86"
 IUSE="curl gpg openssl sha256 static static-libs"
 
 DEPEND="app-arch/libarchive
