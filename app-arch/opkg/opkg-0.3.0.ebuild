@@ -23,7 +23,6 @@ RDEPEND="${DEPEND}"
 
 src_configure() {
 	econf \
-		--enable-option-checking \
 		$(use_enable curl) \
 		$(use_enable gpg) \
 		$(use_enable openssl) \
