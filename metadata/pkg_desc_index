@@ -1,4 +1,4 @@
-app-arch/opkg 0.2.4 0.2.4-r1: Opkg lightweight package management system
+app-arch/opkg 0.3.0: Opkg is a lightweight package management system based on Ipkg
 app-benchmarks/qgears 2: Very simple qt4 graphics benchmark based on David Reveman cairogears
 app-benchmarks/valley 1.0 1.0-r1: GPU stress-testing tool from the developers of Heaven Benchmark
 app-benchmarks/weighttp 0.3 9999: Small tool to benchmark webservers
