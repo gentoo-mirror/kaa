@@ -13,7 +13,7 @@ SRC_URI="http://downloads.yoctoproject.org/releases/${PN}/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ppc ~ppc64 ~x86"
-IUSE="curl gpg openssl sha256 static static-libs"
+IUSE="curl gpg openssl sha256"
 
 DEPEND="app-arch/libarchive
 	gpg? ( app-crypt/gpgme )
@@ -26,7 +26,5 @@ src_configure() {
 		$(use_enable curl) \
 		$(use_enable gpg) \
 		$(use_enable openssl) \
-		$(use_enable sha256) \
-		$(use_with static static-libopkg) \
-		$(use_enable static-libs static)
+		$(use_enable sha256)
 }
