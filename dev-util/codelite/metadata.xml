@@ -4,4 +4,10 @@
 	<email>oleg@kaa.org.ua</email>
 	<name>Oleg Kravchenko</name>
 </maintainer>
+<use>
+	<flag name="clang">Enable CLANG code completion support</flag>
+	<flag name="flex">Enable FLEX code completion support</flag>
+	<flag name="sftp">Enable SFTP support</flag>
+	<flag name="webview">Enable internal web browser</flag>
+</use>
 </pkgmetadata>
