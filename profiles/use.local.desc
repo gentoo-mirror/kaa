@@ -5,6 +5,10 @@
 app-arch/opkg:gpg - Enable signature checking with gpgme
 app-arch/opkg:openssl - Enable signature checking with OpenSSL
 app-arch/opkg:sha256 - Enable sha256sum check
+dev-util/codelite:clang - Enable CLANG code completion support
+dev-util/codelite:flex - Enable FLEX code completion support
+dev-util/codelite:sftp - Enable SFTP support
+dev-util/codelite:webview - Enable internal web browser
 net-misc/cgminer:adl - Enable support for controlling fans and overclocking on AMD cards with AMD Display Library
 net-misc/cgminer:avalon - Enable support for Avalon ASICs
 net-misc/cgminer:bflsc - Enable support for BFL ASICs
