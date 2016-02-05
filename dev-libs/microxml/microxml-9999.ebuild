@@ -15,6 +15,8 @@ DEPEND="virtual/libc"
 RDEPEND="${DEPEND}"
 
 src_prepare() {
+	epatch "${FILESDIR}"/fix_typo.patch
+
 	eautoreconf
 }
 
