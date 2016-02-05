@@ -12,7 +12,7 @@ KEYWORDS="~amd64 ~arm ~x86"
 IUSE="debug lua"
 
 DEPEND="virtual/libc
-	sys-devel/ubox"
+	dev-libs/libubox"
 RDEPEND="${DEPEND}"
 
 src_configure() {
