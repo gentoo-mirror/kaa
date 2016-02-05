@@ -13,7 +13,7 @@ net-misc/asterisk-gui 2.1.0-r1: Asterisk's GUI.
 net-misc/cgminer 2.7.4 3.7.2: Bitcoin CPU/GPU/FPGA/ASIC miner in C
 net-misc/cpuminer-vert 9999: Vertcoin CPU miner in C
 net-misc/darkminer 9999: Darkcoin GPU miner in C
-net-misc/easycwmp 1.2.7: freecwmp fork of Mini-XML
+net-misc/easycwmp 1.2.7: GPLv2 open source implementation of the TR069 cwmp standard
 net-misc/sgminer 5.0.1: Scrypt GPU miner
 net-misc/vertminer 9999: Vertcoin GPU miner in C
 net-p2p/darkcoin-qt 0.9.10.1 0.9.10.2: P2P Internet currency based on X11. It's ASIC resistant, Highly distributed and Anonymous.
