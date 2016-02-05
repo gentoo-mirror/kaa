@@ -2,8 +2,8 @@ EAPI=5
 
 inherit autotools eutils
 
-DESCRIPTION="freecwmp fork of Mini-XML"
-HOMEPAGE="https://github.com/pivasoftware/microxml"
+DESCRIPTION="GPLv2 open source implementation of the TR069 cwmp standard"
+HOMEPAGE="http://www.easycwmp.org/"
 SRC_URI="http://www.easycwmp.org/download/${P}.tar.gz"
 
 LICENSE="GPL-2"
