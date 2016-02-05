@@ -20,3 +20,4 @@ net-p2p/vertcoin-qt 0.8.7.1: P2P Internet currency based on N-Scrypt. It's ASIC 
 net-wireless/mt7630e 2.3.2 2.3.3 2.3.4: MT7630e PCIe Wifi
 sys-auth/pam_encfs 0.1.4.4: PAM module for auto mounting encfs drives on login.
 sys-devel/ubus 9999: OpenWrt micro bus architecture
+sys-devel/uci 9999: Unified Configuration Interface
