@@ -9,7 +9,7 @@ SRC_URI="http://www.easycwmp.org/download/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~x86"
-IUSE=""
+IUSE="debug"
 
 DEPEND="dev-libs/json-c
 	dev-libs/libubox
@@ -25,5 +25,7 @@ src_prepare() {
 }
 
 src_configure() {
-	econf --enable-jsonc=0
+	econf --enable-devel \
+		$(use_enable debug) \
+		--enable-jsonc=0
 }
