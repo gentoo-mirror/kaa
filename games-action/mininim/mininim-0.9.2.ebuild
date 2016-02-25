@@ -27,3 +27,8 @@ src_configure() {
 	unset LINGUAS
 	econf
 }
+
+src_install() {
+	default
+	make_desktop_entry mininim Mininim /usr/share/${PN}/data/icons/${PN}.png
+}
