@@ -4,28 +4,31 @@
 
 EAPI=6
 
-inherit eutils
+inherit autotools eutils
 
 DESCRIPTION="The Advanced Prince of Persia Engine - a childhood dream"
 HOMEPAGE="http://oitofelix.github.io/mininim/"
-SRC_URI="http://oitofelix.github.io/${PN}/${P}.tar.gz"
+SRC_URI="http://oitofelix.github.io/mininim/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="media-libs/allegro:5[gtk]"
+DEPEND="media-libs/allegro:5[alsa,gtk,png,truetype,vorbis]"
 RDEPEND="${DEPEND}"
 
+PATCHES=("${FILESDIR}/${P}-sandbox.patch")
+
 src_prepare() {
-	epatch "${FILESDIR}"/fix_install.patch
+	eapply ${PATCHES[@]}
 	eapply_user
+	eautoreconf
 }
 
 src_configure() {
 	unset LINGUAS
-	econf
+	default
 }
 
 src_install() {
