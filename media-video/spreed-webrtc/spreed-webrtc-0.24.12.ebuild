@@ -12,11 +12,11 @@ SRC_URI="https://github.com/strukturag/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.g
 
 LICENSE="AGPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64 ~arm ~x86"
 IUSE=""
 
 DEPEND="dev-lang/go
-	net-libs/nodejs"
+	>=net-libs/nodejs-5.6.0-r1"
 RDEPEND="${DEPEND}"
 
 pkg_setup() {
