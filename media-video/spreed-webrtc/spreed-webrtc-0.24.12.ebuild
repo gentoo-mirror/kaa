@@ -4,7 +4,7 @@
 
 EAPI=6
 
-inherit autotools
+inherit autotools user
 
 DESCRIPTION="WebRTC audio/video call and conferencing server and web client"
 HOMEPAGE="https://www.spreed.me"
@@ -19,6 +19,10 @@ DEPEND="dev-lang/go
 	net-libs/nodejs"
 RDEPEND="${DEPEND}"
 
+pkg_setup() {
+	enewuser ${PN} -1 -1 /dev/null
+}
+
 src_prepare() {
 	default
 	eautoreconf
@@ -28,4 +32,25 @@ src_prepare() {
 src_compile() {
 	emake -j1 \
 		LDFLAGS=""
+}
+
+src_install() {
+	default
+	insinto /etc/${PN}
+	newins server.conf.in ${PN}.example
+	newinitd "${FILESDIR}/${PN}.init" ${PN}
+	exeinto /usr/libexec
+	doexe "${FILESDIR}/spreed-webrtc-checkconfig.sh"
+	chown -R ${PN} "${D}/etc/${PN}"
+}
+
+pkg_postinst() {
+	einfo "The default init script forces /etc/spreed-webrtc/spreed-webrtc.conf to exist."
+	einfo "If you symlink the init script to another one, say spreed-webrtc.foo"
+	einfo "then that uses /etc/spreed-webrtc/foo.conf instead."
+	einfo
+	einfo "Example:"
+	einfo "   cd /etc/init.d"
+	einfo "   ln -s spreed-webrtc spreed-webrtc.foo"
+	einfo "You can now treat spreed-webrtc.foo like any other service"
 }
