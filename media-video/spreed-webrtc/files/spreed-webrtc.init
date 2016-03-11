@@ -6,10 +6,10 @@
 WEBRTC_NAME=${SVCNAME##*.}
 if [ -n "${WEBRTC_NAME}" -a "${SVCNAME}" != "spreed-webrtc" ]; then
 	WEBRTC_PID="/var/run/spreed-webrtc.${WEBRTC_NAME}.pid"
-	WEBRTC_CONF_DEFAULT="/etc/spreed-webrtc/${WEBRTC_NAME}.conf"
+	WEBRTC_CONF_DEFAULT="/etc/spreed-webrtc/${WEBRTC_NAME}.ini"
 else
 	WEBRTC_PID="/var/run/spreed-webrtc.pid"
-	WEBRTC_CONF_DEFAULT="/etc/spreed-webrtc/spreed-webrtc.conf"
+	WEBRTC_CONF_DEFAULT="/etc/spreed-webrtc/spreed-webrtc.ini"
 fi
 WEBRTC_CONF=${WEBRTC_CONF:-${WEBRTC_CONF_DEFAULT}}
 WEBRTC_EXEC=${WEBRTC_EXEC:-/usr/sbin/spreed-webrtc-server}
