@@ -17,7 +17,7 @@ IUSE=""
 
 DEPEND="dev-lang/go
 	>=net-libs/nodejs-5.6.0-r1"
-RDEPEND="${DEPEND}"
+RDEPEND=""
 
 pkg_setup() {
 	enewuser ${PN} -1 -1 /dev/null
