@@ -17,7 +17,7 @@ IUSE=""
 
 DEPEND="dev-lang/go
 	>=net-libs/nodejs-5.6.0-r1"
-RDEPEND="${DEPEND}"
+RDEPEND=""
 
 pkg_setup() {
 	enewuser ${PN} -1 -1 /dev/null
@@ -45,9 +45,9 @@ src_install() {
 }
 
 pkg_postinst() {
-	einfo "The default init script forces /etc/spreed-webrtc/spreed-webrtc.conf to exist."
+	einfo "The default init script forces /etc/spreed-webrtc/spreed-webrtc.ini to exist."
 	einfo "If you symlink the init script to another one, say spreed-webrtc.foo"
-	einfo "then that uses /etc/spreed-webrtc/foo.conf instead."
+	einfo "then that uses /etc/spreed-webrtc/foo.ini instead."
 	einfo
 	einfo "Example:"
 	einfo "   cd /etc/init.d"

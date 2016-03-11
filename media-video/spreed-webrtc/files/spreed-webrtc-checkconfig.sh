@@ -1,6 +1,6 @@
 #!/bin/sh
 
-WEBRTC_CONF="${WEBRTC_CONF:-/etc/spreed-webrtc/spreed-webrtc.conf}"
+WEBRTC_CONF="${WEBRTC_CONF:-/etc/spreed-webrtc/spreed-webrtc.ini}"
 
 if [ ! -e ${WEBRTC_CONF} ] ; then
 	echo "Please setup ${WEBRTC_CONF} before starting spreed-webrtc" >&2
