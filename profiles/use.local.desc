@@ -1,0 +1,57 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-arch/opkg:gpg - Enable signature checking with gpgme
+app-arch/opkg:openssl - Enable signature checking with OpenSSL
+app-arch/opkg:sha256 - Enable sha256sum check
+dev-util/codelite:clang - Enable CLANG code completion support
+dev-util/codelite:flex - Enable FLEX code completion support
+dev-util/codelite:sftp - Enable SFTP support
+dev-util/codelite:webview - Enable internal web browser
+net-misc/cgminer:adl - Enable support for controlling fans and overclocking on AMD cards with AMD Display Library
+net-misc/cgminer:avalon - Enable support for Avalon ASICs
+net-misc/cgminer:bflsc - Enable support for BFL ASICs
+net-misc/cgminer:bitforce - Enable support for mining with ButterFly Labs BitFORCE FPGAs
+net-misc/cgminer:bitfury - Enable support for mining with BitFury ASICs
+net-misc/cgminer:drillbit - Enable support for mining with Drillbit BitFury ASICs
+net-misc/cgminer:icarus - Enable support for mining with Icarus FPGAs
+net-misc/cgminer:klondike - Enable support for mining with Klondik ASICs
+net-misc/cgminer:minion - Enable support for mining with BlackArrow Bitfury
+net-misc/cgminer:modminer - Enable support for mining with ModMiner FPGAs
+net-misc/cgminer:opencl - Enable support for mining with OpenCL-capable devices (GPUs)
+net-misc/cgminer:reboot - Reboot host computer, if GPU hangs
+net-misc/cgminer:scrypt - Enable support for scrypt mining algorithm
+net-misc/cgminer:ztex - Enable support for mining with Ztex FPGAs
+net-misc/darkminer:adl - Enable support for controlling fans and overclocking on AMD cards with AMD Display Library
+net-misc/darkminer:avalon - Enable support for Avalon ASICs
+net-misc/darkminer:bflsc - Enable support for BFL ASICs
+net-misc/darkminer:bitforce - Enable support for mining with ButterFly Labs BitFORCE FPGAs
+net-misc/darkminer:bitfury - Enable support for mining with BitFury ASICs
+net-misc/darkminer:drillbit - Enable support for mining with Drillbit BitFury ASICs
+net-misc/darkminer:icarus - Enable support for mining with Icarus FPGAs
+net-misc/darkminer:klondike - Enable support for mining with Klondik ASICs
+net-misc/darkminer:minion - Enable support for mining with BlackArrow Bitfury
+net-misc/darkminer:modminer - Enable support for mining with ModMiner FPGAs
+net-misc/darkminer:opencl - Enable support for mining with OpenCL-capable devices (GPUs)
+net-misc/darkminer:reboot - Reboot host computer, if GPU hangs
+net-misc/darkminer:scrypt - Enable support for scrypt mining algorithm
+net-misc/darkminer:ztex - Enable support for mining with Ztex FPGAs
+net-misc/sgminer:adl - Enable support for controlling fans and overclocking on AMD cards with AMD Display Library
+net-misc/sgminer:reboot - Reboot host computer, if GPU hangs
+net-misc/vertminer:adl - Enable support for controlling fans and overclocking on AMD cards with AMD Display Library
+net-misc/vertminer:avalon - Enable support for Avalon ASICs
+net-misc/vertminer:bflsc - Enable support for BFL ASICs
+net-misc/vertminer:bitforce - Enable support for mining with ButterFly Labs BitFORCE FPGAs
+net-misc/vertminer:bitfury - Enable support for mining with BitFury ASICs
+net-misc/vertminer:drillbit - Enable support for mining with Drillbit BitFury ASICs
+net-misc/vertminer:icarus - Enable support for mining with Icarus FPGAs
+net-misc/vertminer:klondike - Enable support for mining with Klondik ASICs
+net-misc/vertminer:minion - Enable support for mining with BlackArrow Bitfury
+net-misc/vertminer:modminer - Enable support for mining with ModMiner FPGAs
+net-misc/vertminer:opencl - Enable support for mining with OpenCL-capable devices (GPUs)
+net-misc/vertminer:reboot - Reboot host computer, if GPU hangs
+net-misc/vertminer:scrypt - Enable support for scrypt mining algorithm
+net-misc/vertminer:ztex - Enable support for mining with Ztex FPGAs
+net-p2p/darkcoin-qt:qrcode - Enable generation of QR Codes for receiving payments
+net-p2p/vertcoin-qt:qrcode - Enable generation of QR Codes for receiving payments
