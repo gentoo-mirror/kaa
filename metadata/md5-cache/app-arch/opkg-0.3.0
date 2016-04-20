@@ -10,5 +10,5 @@ RDEPEND=app-arch/libarchive gpg? ( app-crypt/gpgme ) openssl? ( dev-libs/openssl
 SLOT=0
 SRC_URI=http://downloads.yoctoproject.org/releases/opkg/opkg-0.3.0.tar.gz
 _eclass_exported_funcs=src_configure:-
-_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	multilib	23ae8c186171e6476af098d2a50d0ee0	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	23ae8c186171e6476af098d2a50d0ee0	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
 _md5_=5c2ceaa72ffcec4f37ea666af2f14466
