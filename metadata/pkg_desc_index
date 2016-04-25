@@ -4,6 +4,7 @@ app-benchmarks/valley 1.0 1.0-r1: GPU stress-testing tool from the developers of
 app-benchmarks/weighttp 0.3 9999: Small tool to benchmark webservers
 app-misc/magtek_cr_switch 0.0.1 0.0.1-r1 9999: Mag-Tek Mini Swipe Reader mode switch tool
 app-text/odt2txt 0.5: A simple converter from OpenDocument Text to plain text
+dev-libs/dyncall 0.9: low-level toolkit providing a portable abstraction for handling native code dynamically at run time
 dev-libs/libubox 9999: C utility functions for OpenWrt
 dev-libs/microxml 9999: freecwmp fork of Mini-XML
 dev-util/codelite 9.0 9999: A Free, open source, cross platform C,C++,PHP and Node.js IDE
