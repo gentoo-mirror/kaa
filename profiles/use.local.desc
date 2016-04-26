@@ -5,6 +5,7 @@
 app-arch/opkg:gpg - Enable signature checking with gpgme
 app-arch/opkg:openssl - Enable signature checking with OpenSSL
 app-arch/opkg:sha256 - Enable sha256sum check
+dev-libs/dyncall:cmake - install cmake modules to locate dyncall
 dev-util/codelite:clang - Enable CLANG code completion support
 dev-util/codelite:flex - Enable FLEX code completion support
 dev-util/codelite:sftp - Enable SFTP support
