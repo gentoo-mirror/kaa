@@ -3,5 +3,6 @@
 # * generated automatically using pmaint *
 
 dev-libs/dyncall:cmake - install cmake modules to locate dyncall
+net-misc/cpp-ethereum:cuda - Enable cuda support
 net-misc/sgminer:adl - Enable support for controlling fans and overclocking on AMD cards with AMD Display Library
 net-misc/sgminer:reboot - Reboot host computer, if GPU hangs
