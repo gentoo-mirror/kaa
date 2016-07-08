@@ -3,6 +3,10 @@
 # * generated automatically using pmaint *
 
 dev-libs/dyncall:cmake - install cmake modules to locate dyncall
+dev-util/codelite:clang - Build with clang code completion support
+dev-util/codelite:flex - Add support for flex
+dev-util/codelite:lldb - Add support for lldb
+dev-util/codelite:sftp - Add support for sftp
 net-misc/cpp-ethereum:cuda - Enable CUDA support
 net-misc/cpp-ethereum:opencl - Enable OpenCL support
 net-misc/sgminer:adl - Enable support for controlling fans and overclocking on AMD cards with AMD Display Library

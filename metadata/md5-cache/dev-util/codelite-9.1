@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=app-text/hunspell clang? ( sys-devel/llvm[clang] ) dev-db/sqlite:3 flex? ( sys-devel/flex ) mysql? ( virtual/libmysqlclient ) lldb? ( sys-devel/llvm[lldb] ) sftp? ( net-libs/libssh ) x11-libs/wxGTK:3.0[X] sys-devel/make >=dev-util/cmake-2.8.12
+DESCRIPTION=A Free, open source, cross platform C, C++, PHP and Node.js IDE
+EAPI=6
+HOMEPAGE=http://codelite.org/
+IUSE=clang flex lldb mysql pch sftp
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=app-text/hunspell clang? ( sys-devel/llvm[clang] ) dev-db/sqlite:3 flex? ( sys-devel/flex ) mysql? ( virtual/libmysqlclient ) lldb? ( sys-devel/llvm[lldb] ) sftp? ( net-libs/libssh ) x11-libs/wxGTK:3.0[X]
+SLOT=0
+SRC_URI=https://github.com/eranif/codelite/archive/9.1.tar.gz -> codelite-9.1.tar.gz
+_eclass_exported_funcs=src_prepare:- src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:cmake-utils
+_eclasses_=cmake-utils	ac5bd012586c6cf0d9826400d9de2830	eutils	792f83d5ec9536cb5ccef375469d8bde	flag-o-matic	8632fcd33a047954f007dee9a137bdcc	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441	versionator	99ae9d758cbe7cfed19170e7d48f5a9c	wxwidgets	9b34ce3ca77f4e418e8fd9951c4c1cb1
+_md5_=c3d26d4057de60183f1ada18a8dd9a2f
