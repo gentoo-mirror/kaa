@@ -19,8 +19,8 @@ DEPEND="${RDEPEND}
 
 src_configure() {
 	local mycmakeargs=(
-		-DWITH_MYSQL="$(usex mysql)"
-		-DWITH_URI="$(usex uri)"
+		-DWITH_MYSQL="$(usex mysql ON OFF)"
+		-DWITH_URIPARSER="$(usex uri ON OFF)"
 	)
 
 	cmake-utils_src_configure
