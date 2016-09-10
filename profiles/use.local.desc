@@ -3,6 +3,8 @@
 # * generated automatically using pmaint *
 
 dev-libs/dyncall:cmake - install cmake modules to locate dyncall
+dev-libs/libtools:mysql - Enable MySQL functions
+dev-libs/libtools:uri - Enable URI parsing functions
 dev-util/codelite:clang - Build with clang code completion support
 dev-util/codelite:flex - Add support for flex
 dev-util/codelite:lldb - Add support for lldb
