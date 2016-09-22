@@ -1,4 +1,3 @@
-app-arch/apt 1.3: Set of tools for managing Debian packages
 app-benchmarks/qgears 2: Very simple qt4 graphics benchmark based on David Reveman cairogears
 app-benchmarks/valley 1.0-r1: GPU stress-testing tool from the developers of Heaven Benchmark
 app-benchmarks/weighttp 0.4: Small tool to benchmark webservers
@@ -20,4 +19,5 @@ net-misc/asterisk-gui 2.1.0-r1: Asterisk's GUI.
 net-misc/cpp-ethereum 9999: Ethereum miner with CUDA and stratum support
 net-misc/sgminer 5.0.1: Scrypt GPU miner
 net-wireless/mt7630e 2.3.7: MT7630e PCIe Wifi
+sys-apps/apt 1.3: Advanced front-end for dpkg
 sys-auth/pam_encfs 0.1.4.4: PAM module for auto mounting encfs drives on login.
