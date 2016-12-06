@@ -9,6 +9,7 @@ dev-libs/liblog 9999: C implementation of the logging library
 dev-libs/libsuinput 0.6.1: Thin userspace library on top of Linux uinput kernel module
 dev-libs/libtools 9999: Library with a lot of useful C routines
 dev-python/btce-api 9999: Python wrapper around the public and trading APIs of BTC-e.com
+dev-python/pygerrit 1.0.0: Client library for interacting with Gerrit
 dev-util/codelite 9.1: A Free, open source, cross platform C, C++, PHP and Node.js IDE
 dev-util/jenkins-bin 1.651.1: Extensible continuous integration server
 dev-util/magtek_cr_switch 0.0.1-r2 9999: Mag-Tek Mini Swipe Reader mode switch tool
