@@ -18,6 +18,7 @@ dev-util/pvs-studio 6.10.19203.1 6.10.19236.1 6.10.19280.1 6.11.20138.1: Static 
 dev-vcs/repo 1.21 1.22 1.23: The multiple repository tool from Android
 games-arcade/mininim 0.9.2: The Advanced Prince of Persia Engine - a childhood dream
 media-video/spreed-webrtc 0.28.1: WebRTC audio/video call and conferencing server and web client
+net-libs/cppzmq 9999: High-level CPP Binding for ZeroMQ
 net-misc/asterisk-chan_dongle 9999: Asterisk Huawei 3G Dongle Channel Driver.
 net-misc/asterisk-gui 2.1.0-r1: Asterisk's GUI.
 net-misc/cpp-ethereum 9999: Ethereum miner with CUDA and stratum support
