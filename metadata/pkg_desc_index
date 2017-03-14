@@ -6,7 +6,7 @@ dev-embedded/imx_usb_loader 9999: Usb loader for imx51/53/6x
 dev-libs/dyncall 0.9: low-level toolkit for handling native code dynamically at run time
 dev-libs/libcpuid 0.3.0: Small C library for x86 CPU detection and feature extraction
 dev-libs/liblog 9999: C implementation of the logging library
-dev-libs/libsuinput 0.6.1: Thin userspace library on top of Linux uinput kernel module
+dev-libs/libsuinput 0.6.1-r1: Thin userspace library on top of Linux uinput kernel module
 dev-libs/libtools 9999: Library with a lot of useful C routines
 dev-python/btce-api 9999: Python wrapper around the public and trading APIs of BTC-e.com
 dev-python/cartman 0.2.3: Trac client command-line tools
