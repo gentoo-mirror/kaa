@@ -11,5 +11,3 @@ dev-util/codelite:lldb - Add support for lldb
 dev-util/codelite:sftp - Add support for sftp
 net-misc/cpp-ethereum:cuda - Enable CUDA support
 net-misc/cpp-ethereum:opencl - Enable OpenCL support
-net-misc/sgminer:adl - Enable support for controlling fans and overclocking on AMD cards with AMD Display Library
-net-misc/sgminer:reboot - Reboot host computer, if GPU hangs
