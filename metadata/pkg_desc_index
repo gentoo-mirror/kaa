@@ -27,6 +27,7 @@ net-libs/cppzmq 9999: High-level CPP Binding for ZeroMQ
 net-misc/asterisk-chan_dongle 9999: Asterisk Huawei 3G Dongle Channel Driver.
 net-misc/asterisk-gui 2.1.0-r1: Asterisk's GUI.
 net-misc/cpp-ethereum 9999: Ethereum miner with CUDA and stratum support
+net-print/prp085iiit 9999: Driver for Tysso PRP-085IIIT printer
 net-wireless/mt7630e 2.3.7 2.3.9: MT7630e PCIe Wifi
 sys-apps/apt 1.4.6: Advanced front-end for dpkg
 sys-apps/can-utils 9999: SocketCAN userspace utilities and tools
