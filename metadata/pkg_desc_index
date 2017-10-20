@@ -16,6 +16,7 @@ dev-python/multi_key_dict 2.0.3-r1: Multi key dictionary implementation
 dev-python/pygerrit 1.0.0-r1: Client library for interacting with Gerrit
 dev-python/python-jenkins 0.4.14: Python bindings for the remote Jenkins API
 dev-util/cmake-doxygen 9999: Easy Doxygen integration with CMake
+dev-util/cmake-version4git 9999: Projects version definition with Git tags and CMake
 dev-util/codelite 9.1: A Free, open source, cross platform C, C++, PHP and Node.js IDE
 dev-util/jenkins-bin 1.651.1: Extensible continuous integration server
 dev-util/magtek_cr_switch 0.0.1-r2 9999: Mag-Tek Mini Swipe Reader mode switch tool
