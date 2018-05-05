@@ -1,4 +1,4 @@
-DEFINED_PHASES=install postinst unpack
+DEFINED_PHASES=install nofetch postinst unpack
 DEPEND=app-admin/chrpath
 DESCRIPTION=GPU stress-testing tool from the developers of Heaven Benchmark
 EAPI=5
