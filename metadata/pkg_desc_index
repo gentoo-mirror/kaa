@@ -13,7 +13,7 @@ dev-util/cmake-uninstall 9999: Adds uninstall target to CMake projects
 dev-util/cmake-version4git 9999: Projects version definition with Git tags and CMake
 dev-util/magtek_cr_switch 0.0.1-r2 9999: Mag-Tek Mini Swipe Reader mode switch tool
 dev-util/pvs-studio 7.04.34029.4: Static Code Analyzer for C, C++ and C#
-dev-vcs/repo 1.25: The multiple repository tool from Android
+dev-vcs/repo 1.26: The multiple repository tool from Android
 media-video/tvtime 1.0.11: High quality television application for use with video capture cards
 net-libs/cppzmq 0_pre160620: High-level CPP Binding for ZeroMQ
 net-misc/asterisk-chan_dongle 9999: Asterisk Huawei 3G Dongle Channel Driver.
