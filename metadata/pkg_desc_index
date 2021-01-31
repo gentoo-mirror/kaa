@@ -2,11 +2,6 @@ dev-embedded/imx_usb_loader 9999: Usb loader for imx51/53/6x
 dev-libs/liblog 9999: C implementation of the logging library
 dev-libs/libsuinput 0.6.1-r2: Thin userspace library on top of Linux uinput kernel module
 dev-libs/libtools 9999: Library with a lot of useful C routines
-dev-python/ansible-lint 3.4.13: Best practices checker for Ansible
-dev-python/cartman 0.2.3-r1: Trac client command-line tools
-dev-python/multi_key_dict 2.0.3-r1: Multi key dictionary implementation
-dev-python/pygerrit 1.0.0-r1: Client library for interacting with Gerrit
-dev-python/python-jenkins 0.4.14: Python bindings for the remote Jenkins API
 dev-util/cmake-abicc 9999: CMake module for checking backward compatibility of a C/C++ library
 dev-util/cmake-doxygen 9999: Easy Doxygen integration with CMake
 dev-util/cmake-uninstall 9999: Adds uninstall target to CMake projects
