@@ -3,9 +3,10 @@ DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Userspace tools for MMC/SD devices
 EAPI=6
 HOMEPAGE=https://git.kernel.org/pub/scm/linux/kernel/git/cjb/mmc-utils.git
+INHERIT=git-r3
 KEYWORDS=~amd64 ~arm ~x86
 LICENSE=GPL-2
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=0c2b9e8aeae64f408bf12008e1913924
