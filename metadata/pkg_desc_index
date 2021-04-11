@@ -10,7 +10,6 @@ dev-util/magtek_cr_switch 0.0.1-r2 9999: Mag-Tek Mini Swipe Reader mode switch t
 dev-util/pvs-studio 7.12.46137.116: Static Code Analyzer for C, C++ and C#
 media-video/tvtime 1.0.11-r3: High quality television application for use with video capture cards
 net-libs/cppzmq 0_pre160620: High-level CPP Binding for ZeroMQ
-net-misc/asterisk-gui 2.1.0-r1: Asterisk's GUI.
 net-print/prp085iiit 9999: Driver for Tysso PRP-085IIIT printer
 sys-apps/apt 1.4.6: Advanced front-end for dpkg
 sys-apps/can-utils 2018.02.0 9999: SocketCAN userspace utilities and tools
