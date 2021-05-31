@@ -1,4 +1,3 @@
-dev-embedded/imx_usb_loader 9999: Usb loader for imx51/53/6x
 dev-libs/liblog 9999: C implementation of the logging library
 dev-libs/libsuinput 0.6.1-r2: Thin userspace library on top of Linux uinput kernel module
 dev-libs/libtools 9999: Library with a lot of useful C routines
