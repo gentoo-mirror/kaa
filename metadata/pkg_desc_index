@@ -13,4 +13,4 @@ net-print/prp085iiit 9999: Driver for Tysso PRP-085IIIT printer
 sys-apps/apt 1.4.6: Advanced front-end for dpkg
 sys-apps/can-utils 2018.02.0 9999: SocketCAN userspace utilities and tools
 sys-apps/mmc-utils 9999: Userspace tools for MMC/SD devices
-sys-apps/uuu 1.4.72-r1: Freescale/NXP I.MX Chip image deploy tools
+sys-apps/uuu 1.4.139-r2: Freescale/NXP I.MX Chip image deploy tools
