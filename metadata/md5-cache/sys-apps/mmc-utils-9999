@@ -2,11 +2,11 @@ DEFINED_PHASES=install prepare unpack
 DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Userspace tools for MMC/SD devices
 EAPI=6
-HOMEPAGE=https://git.kernel.org/pub/scm/linux/kernel/git/cjb/mmc-utils.git
+HOMEPAGE=https://git.kernel.org/pub/scm/utils/mmc/mmc-utils.git/
 INHERIT=git-r3
 KEYWORDS=~amd64 ~arm ~x86
 LICENSE=GPL-2
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=0c2b9e8aeae64f408bf12008e1913924
+_md5_=db1140c606a84021a5fa827c33cdc49d
