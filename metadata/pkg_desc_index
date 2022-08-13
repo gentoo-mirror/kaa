@@ -1,7 +1,15 @@
+dev-libs/liblog 9999: C implementation of the logging library
 dev-libs/libsuinput 0.6.1-r2: Thin userspace library on top of Linux uinput kernel module
+dev-libs/libtools 9999: Library with a lot of useful C routines
+dev-util/cmake-abicc 9999: CMake module for checking backward compatibility of a C/C++ library
+dev-util/cmake-doxygen 9999: Easy Doxygen integration with CMake
+dev-util/cmake-uninstall 9999: Adds uninstall target to CMake projects
+dev-util/cmake-version4git 9999: Projects version definition with Git tags and CMake
+dev-util/magtek_cr_switch 0.0.1-r2 9999: Mag-Tek Mini Swipe Reader mode switch tool
 dev-util/pvs-studio 7.16.55312.179: Static Code Analyzer for C, C++ and C#
 media-video/tvtime 1.0.11-r3: High quality television application for use with video capture cards
 net-libs/cppzmq 0_pre160620: High-level CPP Binding for ZeroMQ
+sys-apps/apt 1.4.6: Advanced front-end for dpkg
 sys-apps/can-utils 2018.02.0 9999: SocketCAN userspace utilities and tools
 sys-apps/mmc-utils 9999: Userspace tools for MMC/SD devices
 sys-apps/uuu 1.4.165: Freescale/NXP I.MX Chip image deploy tools

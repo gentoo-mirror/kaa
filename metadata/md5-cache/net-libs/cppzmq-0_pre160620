@@ -1,7 +1,7 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install test unpack
-DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=High-level CPP Binding for ZeroMQ
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/zeromq/cppzmq
 INHERIT=git-r3 toolchain-funcs
 KEYWORDS=~amd64 ~arm ~x86 ~amd64-linux ~x86-linux
@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=>=net-libs/zeromq-3
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157
-_md5_=8ddf16d90c210879ed70d2411143bf73
+_md5_=bd981541a989d144100bdfa03f1df11a
