@@ -1,4 +1,4 @@
-BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.28.5
 DEFINED_PHASES=compile configure install prepare test
 DEPEND=app-arch/bzip2 >=dev-libs/libusb-1.0.16 dev-libs/openssl sys-libs/zlib dev-libs/libzip
 DESCRIPTION=Freescale/NXP I.MX Chip image deploy tools
@@ -10,5 +10,5 @@ LICENSE=BSD-2
 RDEPEND=app-arch/bzip2 >=dev-libs/libusb-1.0.16 dev-libs/openssl sys-libs/zlib
 SLOT=0
 SRC_URI=https://github.com/NXPmicro/mfgtools/releases/download/uuu_1.4.165/uuu_source-1.4.165.tar.gz
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	bash-completion-r1	767861f3744f589ee5291c1698b1c082	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	bash-completion-r1	767861f3744f589ee5291c1698b1c082	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	cf95ad72ab207889c1668fc0d1bee181
 _md5_=1effbcf87b967df60d2ee0adadfb7d2f
