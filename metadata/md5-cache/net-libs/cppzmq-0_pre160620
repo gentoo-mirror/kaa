@@ -9,5 +9,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=>=net-libs/zeromq-3
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db
 _md5_=bd981541a989d144100bdfa03f1df11a
